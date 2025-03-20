@@ -13,14 +13,14 @@ const MarketingPage = () => {
   return (
     <div className="flex items-center justify-center flex-col">
       <div className="flex items-center justify-center flex-col">
-        <div className="mb-4 flex items-center justify-center border shadow-md p-4 bg-amber-100 text-amber-700 rounded-full uppercase">
+        <div className="mb-4 flex items-center justify-center border shadow-md p-4 bg-amber-100 text-amber-700 rounded-full uppercase font-bold">
           <Medal className="mr-2 h-6 w-6" />
           No 1 task management app
         </div>
-        <h1 className="text-3xl md:text-6xl text-center text-neutral-800 mb-6">
+        <h1 className="text-3xl md:text-6xl text-center text-neutral-800 mb-6 font-bold">
           LineTasky helps you get things done
         </h1>
-        <div className="text-3xl md:6xl bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-4 py-2 rounded-md  w-fit">
+        <div className="text-3xl md:6xl bg-gradient-to-r from-fuchsia-600 to-pink-600 text-white px-4 py-2 rounded-md  w-fit font-bold">
           work forward.
         </div>
       </div>
